@@ -1,0 +1,18 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+
+# Python build files
+*.pyc
+__pycache__/
+
+# Python environment files
+myenv/
+.env
+
+# Configuration files with sensitive data
+config.py
