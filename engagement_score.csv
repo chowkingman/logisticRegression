@@ -1,0 +1,101 @@
+﻿mock_id,eventdate,email_merge,early_tenure,max_score,landing_count,logon_count,landing_cta_count,video_count,tool_count,click_count,totalscore,Engagement Score
+1,9/7/23,4_PA Methodology,New,8,2,2,0,0,0,2,6,0.75
+2,9/7/23,4_PA Methodology,New,8,2,2,0,0,0,0,4,0.5
+3,9/7/23,7_PA LifeStage Retiree,New,9,0,0,0,0,0,0,0,0
+4,9/7/23,8_PA Business Segment HNW,New,8,2,2,2,0,0,0,6,0.75
+5,9/7/23,4_PA Methodology,New,8,0,0,0,0,0,0,0,0
+6,9/7/23,10_PA Web / CX Here to Help,New,9,0,2,0,0,0,0,2,0.22
+7,9/7/23,7_PA LifeStage Retiree,New,9,0,0,0,0,0,0,0,0
+8,9/7/23,8_PA Business Segment HNW,New,8,2,2,2,0,0,0,6,0.75
+9,9/7/23,5_PA Expectations Performance,New,8,0,0,0,0,0,0,0,0
+10,9/7/23,4_PA Methodology,New,8,0,0,0,0,0,0,0,0
+11,9/7/23,3_PA Expectations HNW,New,8,0,0,0,0,0,0,0,0
+12,9/7/23,5_PA Expectations Performance,New,8,0,0,0,0,0,0,0,0
+13,9/7/23,2_PA Web / CX Email,New,8,0,0,0,0,0,0,0,0
+14,9/7/23,8_PA Business Segment HNW,New,8,0,0,0,0,0,0,0,0
+15,9/7/23,2_PA Web / CX Email,New,8,2,2,2,0,0,2,8,1
+16,9/7/23,10_PA Web / CX Here to Help,New,9,0,2,0,0,0,0,2,0.22
+17,9/7/23,10_PA Web / CX Here to Help,New,9,0,0,0,0,0,0,0,0
+18,9/7/23,9_PA Methodology Subject Line B,New,6,2,2,0,0,0,0,4,0.67
+19,9/7/23,7_PA LifeStage Pre - Retiree,New,9,0,0,0,0,0,0,0,0
+20,9/7/23,8_PA Business Segment HNW,New,8,0,0,0,0,0,0,0,0
+21,9/7/23,8_PA Business Segment HNW,New,8,0,0,0,0,0,0,0,0
+22,9/7/23,7_PA LifeStage Pre - Retiree,New,9,0,0,0,0,0,0,0,0
+23,9/7/23,5_PA Expectations Performance,New,8,0,0,0,0,0,0,0,0
+24,9/7/23,2_PA Web / CX Email,New,8,0,0,0,0,0,0,0,0
+25,9/7/23,7_PA LifeStage Retiree,New,9,0,0,0,0,0,0,0,0
+26,9/7/23,5_PA Expectations Performance,New,8,2,2,0,0,0,0,4,0.5
+27,9/7/23,9_PA Methodology Subject Line B,New,6,0,0,0,0,0,0,0,0
+28,9/7/23,3_PA Expectations HNW,New,8,2,2,2,0,0,0,6,0.75
+29,9/7/23,9_PA Methodology Subject Line A,New,6,0,0,0,0,0,0,0,0
+30,9/7/23,5_PA Expectations Performance,New,8,2,2,0,0,0,0,4,0.5
+31,9/7/23,7_PA LifeStage Retiree,New,9,2,0,0,0,0,0,2,0.22
+32,9/7/23,3_PA Expectations HNW,New,8,0,0,0,0,0,2,2,0.25
+33,9/7/23,4_PA Methodology,New,8,0,0,0,0,0,0,0,0
+34,9/7/23,8_PA Business Segment HNW,New,8,0,0,0,0,0,0,0,0
+35,9/7/23,3_PA Expectations HNW,New,8,0,0,0,0,0,0,0,0
+36,9/7/23,9_PA Methodology Subject Line B,New,6,2,2,0,0,0,0,4,0.67
+37,9/7/23,9_PA Methodology Subject Line B,New,6,0,0,0,0,0,0,0,0
+38,9/7/23,2_PA Web / CX Email,New,8,2,0,0,0,0,2,4,0.5
+39,9/7/23,10_PA Web / CX Here to Help,New,9,0,2,0,0,0,0,2,0.22
+40,9/7/23,5_PA Expectations Performance,New,8,2,0,0,0,0,0,2,0.25
+41,9/7/23,9_PA Methodology Subject Line B,New,6,2,2,0,0,0,0,4,0.67
+42,9/7/23,7_PA LifeStage Retiree,New,9,0,0,0,0,0,0,0,0
+43,9/7/23,8_PA Business Segment HNW,New,8,2,2,2,0,0,0,6,0.75
+44,9/7/23,8_PA Business Segment HNW,New,8,0,0,0,0,0,0,0,0
+45,9/7/23,5_PA Expectations Performance,New,8,2,2,0,0,0,0,4,0.5
+46,9/7/23,5_PA Expectations Performance,New,8,0,0,0,0,0,0,0,0
+47,9/7/23,4_PA Methodology,New,8,0,0,0,0,0,0,0,0
+48,9/7/23,3_PA Expectations HNW,New,8,2,2,2,0,0,0,6,0.75
+49,9/7/23,2_PA Web / CX Email,New,8,2,2,2,0,0,0,6,0.75
+50,9/7/23,8_PA Business Segment HNW,New,8,0,0,0,0,0,0,0,0
+51,9/7/23,10_PA Web / CX Here to Help,New,9,0,2,0,0,0,0,2,0.22
+52,9/7/23,4_PA Methodology,New,8,0,0,0,0,0,0,0,0
+53,9/6/23,3_PA Expectations HNW,New,8,0,0,0,0,0,0,0,0
+54,9/6/23,4_PA Methodology,New,8,0,0,0,0,0,0,0,0
+55,9/6/23,8_PA Business Segment HNW,New,8,0,0,0,0,0,0,0,0
+56,9/6/23,5_PA Expectations Performance,New,8,2,0,0,0,0,0,2,0.25
+57,9/6/23,7_PA LifeStage Retiree,New,9,0,0,0,0,0,0,0,0
+58,9/6/23,8_PA Business Segment HNW,New,8,0,0,0,0,0,0,0,0
+59,9/6/23,10_PA Web / CX Here to Help,New,9,2,2,0,0,3,2,9,1
+60,9/6/23,3_PA Expectations HNW,New,8,2,2,2,0,0,0,6,0.75
+61,9/6/23,4_PA Methodology,New,8,0,0,0,0,0,0,0,0
+62,9/6/23,2_PA Web / CX Email,New,8,2,2,2,0,0,0,6,0.75
+63,9/6/23,4_PA Methodology,New,8,2,0,0,0,0,2,4,0.5
+64,9/6/23,10_PA Web / CX Here to Help,New,9,0,0,0,0,0,0,0,0
+65,9/6/23,3_PA Expectations HNW,New,8,0,0,0,0,0,0,0,0
+66,9/6/23,7_PA LifeStage Retiree,New,9,2,2,0,0,0,0,4,0.44
+67,9/6/23,3_PA Expectations HNW,New,8,0,0,0,0,0,0,0,0
+68,9/6/23,2_PA Web / CX Email,New,8,2,2,2,0,0,0,6,0.75
+69,9/6/23,8_PA Business Segment HNW,New,8,0,0,0,0,0,0,0,0
+70,9/6/23,10_PA Web / CX Here to Help,New,9,0,0,0,0,0,0,0,0
+71,9/6/23,4_PA Methodology,New,8,0,0,0,0,0,0,0,0
+72,9/6/23,3_PA Expectations HNW,New,8,0,0,0,0,0,0,0,0
+73,9/6/23,9_PA Methodology Subject Line A,New,6,0,0,0,0,0,0,0,0
+74,9/6/23,3_PA Expectations HNW,New,8,0,0,0,0,0,0,0,0
+75,9/6/23,7_PA LifeStage Retiree,New,9,2,2,0,0,0,2,6,0.67
+76,9/6/23,4_PA Methodology,New,8,2,2,0,2,0,2,8,1
+77,9/6/23,8_PA Business Segment HNW,New,8,2,2,2,0,0,0,6,0.75
+78,9/6/23,9_PA Methodology Subject Line A,New,6,0,0,0,0,0,0,0,0
+79,9/6/23,10_PA Web / CX Here to Help,New,9,0,2,0,0,0,0,2,0.22
+80,9/6/23,10_PA Web / CX Here to Help,New,9,0,0,0,0,0,0,0,0
+81,9/6/23,3_PA Expectations HNW,New,8,0,0,0,0,0,0,0,0
+82,9/6/23,7_PA LifeStage Retiree,New,9,2,0,0,0,0,0,2,0.22
+83,9/6/23,10_PA Web / CX Here to Help,New,9,0,0,0,0,0,0,0,0
+84,9/6/23,10_PA Web / CX Here to Help,New,9,2,2,0,0,3,0,7,0.78
+85,9/6/23,9_PA Methodology Subject Line B,New,6,2,2,0,0,0,0,4,0.67
+86,9/6/23,8_PA Business Segment HNW,New,8,0,0,0,0,0,0,0,0
+87,9/6/23,3_PA Expectations HNW,New,8,0,0,0,0,0,0,0,0
+88,9/5/23,8_PA Business Segment HNW,New,8,0,0,0,0,0,0,0,0
+89,9/5/23,7_PA LifeStage Retiree,New,9,2,0,0,0,0,0,2,0.22
+90,9/5/23,9_PA Methodology Subject Line A,New,6,0,0,0,0,0,0,0,0
+91,9/5/23,9_PA Methodology Subject Line A,New,6,0,0,0,0,0,0,0,0
+92,9/5/23,4_PA Methodology,New,8,0,0,0,0,0,0,0,0
+93,9/5/23,10_PA Web / CX Here to Help,New,9,0,2,0,0,0,0,2,0.22
+94,9/5/23,8_PA Business Segment HNW,New,8,0,0,0,0,0,0,0,0
+95,9/5/23,9_PA Methodology Subject Line A,New,6,0,0,0,0,0,0,0,0
+96,9/5/23,8_PA Business Segment HNW,New,8,0,0,0,0,0,0,0,0
+97,9/5/23,8_PA Business Segment HNW,New,8,0,0,0,0,0,0,0,0
+98,9/5/23,7_PA LifeStage Retiree,New,9,0,0,0,0,0,0,0,0
+99,9/5/23,10_PA Web / CX Here to Help,New,9,0,0,0,0,0,0,0,0
+100,9/5/23,3_PA Expectations HNW,New,8,2,2,2,0,0,0,6,0.75

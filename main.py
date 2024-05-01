@@ -1,39 +1,36 @@
-from sklearn.datasets import make_classification
-from matplotlib import pyplot as plt
-from sklearn.linear_model import LogisticRegression
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import confusion_matrix
 import pandas as pd
+from sklearn.cluster import KMeans
+import matplotlib.pyplot as plt
 
-x, y = make_classification(
-    n_samples=100,
-    n_features=1,
-    n_classes=2,
-    n_clusters_per_class=1,
-    flip_y=0.03,
-    n_informative=1,
-    n_redundant=0,
-    n_repeated=0
-)
+# Load the data from CSV files
+appointment_status = pd.read_csv('appointment_status.csv')
+engagement_score = pd.read_csv('engagement_score.csv')
+income_expense = pd.read_csv('income_expense.csv')
+plan_start_date = pd.read_csv('plan_start_date.csv')
+success_rate = pd.read_csv('success_rate.csv')
 
-# Create a scatter plot
-plt.scatter(x, y, c=y, cmap='rainbow')
-plt.title('Scatter Plot of Logistic Regression')
+# Merge the dataframes on 'mock_id'
+merged = pd.merge(appointment_status, engagement_score, on='mock_id')
+merged = pd.merge(merged, income_expense, on='mock_id')
+merged = pd.merge(merged, plan_start_date, on='mock_id')
+merged = pd.merge(merged, success_rate, on='mock_id')
+
+# Select the features we're interested in
+features = merged[['Engagement Score', 'success_rate']]
+
+# Handle missing values - this is a simple approach for demonstration purposes
+# You might want to handle missing values in a way that makes sense for your data
+features = features.dropna()
+
+# Create the KMeans object and fit it to the data
+kmeans = KMeans(n_clusters=3, random_state=42)
+kmeans.fit(features)
+
+# Add the cluster labels to your DataFrame
+features['cluster'] = kmeans.labels_
+
+# Plot the clusters
+plt.scatter(features['Engagement Score'], features['success_rate'], c=features['cluster'])
+plt.xlabel('Engagement Score')
+plt.ylabel('Success Rate')
 plt.show()
-
-# Split the dataset into training and test dataset
-x_train, x_test, y_train, y_test = train_test_split(x, y, random_state=1)
-
-# Create a Logistic Regression Object, perform Logistic Regression
-log_reg = LogisticRegression()
-log_reg.fit(x_train, y_train)
-
-# Show to Coeficient and Intercept
-print(log_reg.coef_)
-print(log_reg.intercept_)
-
-# Perform prediction using the test dataset
-y_pred = log_reg.predict(x_test)
-
-# Show the Confusion Matrix
-confusion_matrix(y_test, y_pred)
